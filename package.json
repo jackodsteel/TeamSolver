@@ -1,0 +1,18 @@
+{
+  "name": "TopicCollaborate",
+  "version": "0.0.1",
+  "dependencies": {
+    "apollo-server": "latest",
+    "dataloader": "latest",
+    "graphql": "^14.0.2",
+    "graphql-tools": "latest",
+    "lodash.merge": "^4.6.1",
+    "mongodb": "^3.1.1",
+    "react-apollo": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
