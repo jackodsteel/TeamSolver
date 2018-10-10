@@ -1,3 +1,4 @@
+// @kirillov22 contributed to this repo
 import {ApolloServer} from 'apollo-server';
 
 import MongoClient from 'mongodb';
@@ -46,6 +47,7 @@ const server = new ApolloServer({
 // can utilize middleware options, which we'll discuss later.
 server.listen().then(({url}) => {
     console.log(`🚀  Server ready at ${url}`);
+    console.log(`oWo what's this?`);
 });
 
 
